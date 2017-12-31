@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 21b56fa4ac510b34d865a6cae689b006
+timeCreated: 1514697612
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - armadillo: {fileID: 2800000, guid: 8d4354cace070ef41a318c34670ff88a, type: 3}
+  - bunny: {fileID: 2800000, guid: 689440ccb80c6a348afee121dd2fa9e3, type: 3}
+  - donut: {fileID: 2800000, guid: 4df4a7e175870f94ca81a95b3d9c28f4, type: 3}
+  - textureMaterial: {fileID: 2100000, guid: 716d33869f0597743928b3f83bbdbd52, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
