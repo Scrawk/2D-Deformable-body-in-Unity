@@ -5,7 +5,7 @@ This a port of the 2D FEM project by [Miles Macklin](http://blog.mmacklin.com/) 
 
 The original did also implement fracturing of the mesh but I have not fully ported that and probably wont. The project provides a few options to load the scene with various meshes and has some neat code that creates a mesh from a image.
 
-See the [home page](https://www.digital-dust.com/single-post/2017/12/31/2D-deformable-body-in-Unity) for the Unity package download. 
+You can download a Unity package [here](https://app.box.com/s/glfb1t609jex16vluqqfauxrchjl1pp0).
 
 There's a armadillo, bunny and a donut.
 
