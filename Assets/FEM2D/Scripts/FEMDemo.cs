@@ -24,8 +24,6 @@ namespace FEM2D
 
         private Texture2D texture;
 
-        private const float TimeStep = 1.0f / 60.0f;
-
         private FEMScene Scene;
 
         private Vector2f MousePos;
@@ -49,7 +47,6 @@ namespace FEM2D
 
         void Start()
         {
-
 
             switch(option)
             {
@@ -104,12 +101,12 @@ namespace FEM2D
                 textureMaterial.SetTexture("_MainTex", texture);
         }
 
-        void Update()
+        void FixedUpdate()
         {
 
             if (Scene == null) return;
 
-            float dt = TimeStep;
+            float dt = Time.fixedDeltaTime;
             int steps = Scene.Substeps;
 
             dt /= steps;
